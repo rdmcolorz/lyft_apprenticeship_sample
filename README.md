@@ -5,3 +5,5 @@ If you don’t have a current code sample you can share, please write a small we
 
 - Testing:
 To see expected behavior you can test against a current working example with the command: `curl -X POST https://lyft-interview-test.herokuapp.com/test --data '{"string_to_cut": "iamyourlyftdriver"}' -H 'Content-Type: application/json'`
+
+- Command for testing on the local server: `curl -X POST http://localhost:5000/test --data '{"string_to_cut": "iamyourlyftdriver"}' -H 'Content-Type: application/json'`
